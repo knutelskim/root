@@ -1,0 +1,64 @@
+.TH "fitowanie.cpp" 3 "Tue Sep 15 2015" "Root" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+fitowanie.cpp \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "Double_t \fBfunc2\fP (Double_t *x, Double_t *par)"
+.br
+.ti -1c
+.RI "void \fBfitowanie\fP ()"
+.br
+.RI "\fImakro fitujące funkcję do histogramu \fP"
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "void fitowanie ()"
+
+.PP
+makro fitujące funkcję do histogramu otwarcie pliku \&.root
+.PP
+otwarcie histogramu z pliku
+.PP
+definicja funkcji fitującej
+.PP
+nazwanie parametrów
+.PP
+ustalenie wielkości parametrów
+.PP
+fitowanie funkcji do histogramu
+.PP
+deklaracja legendy
+.PP
+dodawanie wpisów do legendy
+.PP
+rysowanie legendy
+.PP
+ustalenie opisów osi
+.PP
+zapis histogramu do \&.pdf (c1 jest nazwą domyślną tworzonej kanwy)
+.PP
+zapis parametrów do pliku \&.txt 
+.SS "Double_t func2 (Double_t *x, Double_t *par)"
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Paweł Knutelski 
+.RE
+.PP
+\fBDate:\fP
+.RS 4
+13\&.09\&.2015 
+.RE
+.PP
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Root from the source code\&.
